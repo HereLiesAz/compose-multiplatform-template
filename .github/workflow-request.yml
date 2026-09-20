@@ -40,7 +40,11 @@
 #
 # Request catalog workflows here by slug. The controller is the authority; this
 # file is a repository-side declaration, not an executable workflow.
-requested: []
+requested:
+  - ci-validation
+  - codeql-scan
+  - multi-platform-app-release
+  - desktop-package
 
 # For a workflow that is not in the menu, describe the GENERAL capability needed.
 # Submit the implementation to HereLiesAz/workflows; do not implement it locally.
